@@ -1,5 +1,12 @@
 .buttonRow {
   /*
+    This element houses absolutely-positioned visually-hidden labels.
+    We want them to be contained by this scroll container,
+    to avoid introducing a scrollburglar!
+  */
+  position: relative;
+
+  /*
     We need the control buttons 
     horizontally aligned, then
     overflow with scrollbar.
