@@ -1,2 +1,9 @@
 .buttonRow {
+  /*
+    We need the control buttons 
+    horizontally aligned, then
+    overflow with scrollbar.
+  */
+  white-space: nowrap;
+  overflow: auto;
 }
