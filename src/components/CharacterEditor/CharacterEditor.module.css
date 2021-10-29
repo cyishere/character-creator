@@ -4,6 +4,7 @@
 }
 
 .maxWidthWrapper {
+  /* Group the main content in a stack */
   position: relative;
 }
 

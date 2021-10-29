@@ -9,6 +9,9 @@ body {
   margin: 0;
 }
 
+/* 
+  Background decoration
+*/
 body::before {
   content: "";
   display: block;
