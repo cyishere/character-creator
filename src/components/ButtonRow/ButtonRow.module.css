@@ -4,6 +4,10 @@
     horizontally aligned, then
     overflow with scrollbar.
   */
-  white-space: nowrap;
   overflow: auto;
+  white-space: nowrap;
+  margin-left: -22px;
+  margin-right: -22px;
+  margin-bottom: -22px;
+  padding: 22px;
 }
